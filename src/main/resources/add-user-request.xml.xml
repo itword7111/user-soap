@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://techprimers.com/spring-boot-soap-example">
+<soapenv:Header/>
+<soapenv:Body>
+    <us:addUserWithRolesRequest>
+        <us:userWithRoles>
+            <us:name>qq3</us:name>
+            <us:login>q3</us:login>
+            <us:password>qQqq3</us:password>
+            <us:roles>
+                <us:name>admin</us:name>
+            </us:roles>
+            <us:roles>
+                <us:name>moderator</us:name>
+            </us:roles>
+        </us:userWithRoles>
+    </us:addUserWithRolesRequest>
+</soapenv:Body>
+</soapenv:Envelope>
